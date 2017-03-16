@@ -20,3 +20,10 @@ Thanks guys, Arcanuo.
 # If auto-return-payment-data isn't setup, this'll happen. 
 
 https://arcanuo.gyazo.com/36e4830a7276e9c8b86a4626784b2ec5
+
+# Todo
+
+### Implement IPN.
+
+### Implement Logging.
+
