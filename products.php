@@ -17,9 +17,13 @@ $paypalID = 'arcanuo123-facilitator@gmail.com'; //Business Email
 
 <form action="<?php echo $paypalURL; ?>" method="post">
     <!-- Identify your business so that you can collect the payments. -->
+
     <input type="hidden" name="business" value="<?php echo $paypalID; ?>">
-    IngameName!: <input type="text" name="playername" placeholder="Arcanuo"><br />
-    Email: <input type="email" name="email" placeholder="South@park.ca"><br />
+    <div class="ui input">
+
+    <h2>Username</h2><br /> <input type="text" name="playername" placeholder="Arcanuo"><br />
+    <h2>Email</h2><br /> <input type="email" name="email" placeholder="South@park.ca"><br />
+  </div><br />
     <!-- Specify a Buy Now button. -->
     <input type="hidden" name="cmd" value="_xclick">
 
