@@ -16,3 +16,7 @@ PM me on discord if it doesn't.
 
 All values can be tweaked, I didn't give a variable for every little thing, remember to take it out of sandbox before deploy, tweak the email in success.php, and setup a mailclient. Check the donator rank is setup the way you want it to to be in products.php.
 Thanks guys, Arcanuo.
+
+#If auto-return-payment-data isn't setup, this'll happen. 
+
+https://arcanuo.gyazo.com/36e4830a7276e9c8b86a4626784b2ec5
