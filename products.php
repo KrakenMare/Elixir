@@ -8,7 +8,7 @@
 <body>
 <?php
 $successLink = 'http://localhost/AutoPaymentExilir/success.php';
-$cancelLink = 'http://localhost/AutoPaymentExilir/cancel.php'
+$cancelLink = 'http://localhost/AutoPaymentExilir/cancel.php';
 $paypalURL = 'https://www.sandbox.paypal.com/cgi-bin/webscr'; //Test PayPal API URL
 $paypalID = 'arcanuo123-facilitator@gmail.com'; //Business Email
 ?>
