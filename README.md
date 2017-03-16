@@ -12,3 +12,6 @@ I have it setup as a level of verification that uses the product_id as the rank 
 Used alot of google resources, thanks codex and other resources who walked me through using the REST API. 
 # Currently in sandbox mode, tweak paypalID, PaypalURL, Success & Return URLs, and edit DbHandler and it should run. 
 PM me on discord if it doesn't.
+
+
+All values can be tweaked, I didn't give a variable for every little thing, remember to take it out of sandbox before deploy, tweak the email in success.php, and setup a mailclient. Check the donator rank is setup the way you want it to to be in products.php.
