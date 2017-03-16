@@ -13,7 +13,25 @@ $paypalURL = 'https://www.sandbox.paypal.com/cgi-bin/webscr'; //Test PayPal API 
 $paypalID = 'arcanuo123-facilitator@gmail.com'; //Business Email
 ?>
 <center>
-<h1>Name: Supporter - $10 USD;</h1><br />
+  <div class="ui card">
+
+    <div class="content">
+      <a class="header">Donator Rank</a>
+      <div class="meta">
+        <span class="date">$10 USD</span>
+      </div>
+      <div class="description">
+        This donator rank comes with a fancy name color so you can show your support of the server! Also includes updated drop loots and more and more goodies!
+      </div>
+    </div>
+    <div class="extra content">
+      <a>
+        <i class="user icon"></i>
+        The Donator Rank!
+      </a>
+    </div>
+</div>
+
 
 <form action="<?php echo $paypalURL; ?>" method="post">
     <!-- Identify your business so that you can collect the payments. -->
@@ -21,8 +39,8 @@ $paypalID = 'arcanuo123-facilitator@gmail.com'; //Business Email
     <input type="hidden" name="business" value="<?php echo $paypalID; ?>">
     <div class="ui input">
 
-    <h2>Username</h2><br /> <input type="text" name="playername" placeholder="Arcanuo"><br />
-    <h2>Email</h2><br /> <input type="email" name="email" placeholder="South@park.ca"><br />
+    <input type="text" name="playername" id="playername" placeholder="Arcanuo"><br />
+    <input type="email" name="email" id="email" placeholder="South@park.ca"><br />
   </div><br />
     <!-- Specify a Buy Now button. -->
     <input type="hidden" name="cmd" value="_xclick">
@@ -45,5 +63,6 @@ $paypalID = 'arcanuo123-facilitator@gmail.com'; //Business Email
     src="https://www.paypalobjects.com/en_US/i/btn/btn_buynow_LG.gif" alt="PayPal - The safer, easier way to pay online">
     <img alt="" border="0" width="1" height="1" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" >
 </form>
+
 </center>
 </body>
