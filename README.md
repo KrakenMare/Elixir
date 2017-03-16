@@ -15,3 +15,4 @@ PM me on discord if it doesn't.
 
 
 All values can be tweaked, I didn't give a variable for every little thing, remember to take it out of sandbox before deploy, tweak the email in success.php, and setup a mailclient. Check the donator rank is setup the way you want it to to be in products.php.
+Thanks guys, Arcanuo.
