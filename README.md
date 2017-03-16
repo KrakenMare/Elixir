@@ -10,3 +10,5 @@ An autodonation script for RotMG using the Paypal REST API.
 I have it setup as a level of verification that uses the product_id as the rank the user is being set to. If you request, I can edit it for gold, etc. Adding another rank is pretty easy, etc. I don't have auto recurring payments setup yet.
 # IPN isn't setup, add it and it could be more secure. If I get around to it, I'll add IPN.
 Used alot of google resources, thanks codex and other resources who walked me through using the REST API. 
+# Currently in sandbox mode, tweak paypalID, PaypalURL, Success & Return URLs, and edit DbHandler and it should run. 
+PM me on discord if it doesn't.
